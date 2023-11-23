@@ -6,7 +6,7 @@ import { ContadorResponsive } from '../ContadorResponsive/ContadorResponsive';
 const Main=()=>{
 
     return(				
-        <Container minH="78vh" maxW="100vw" display={'flex'} flexDirection={'column'} alignItems={'center'} 
+        <Container bgImage="url('./fondoRosa.png')" minH="78vh" maxW="100vw" display={'flex'} flexDirection={'column'} alignItems={'center'} 
         justifyContent={'center'}  > 
 
             <ContadorResponsive/>
