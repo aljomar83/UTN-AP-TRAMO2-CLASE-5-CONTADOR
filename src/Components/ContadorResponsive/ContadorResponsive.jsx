@@ -49,7 +49,8 @@ const ContadorResponsive=()=>{
                     <GridItem colSpan={1} order={{base:1 ,md:2}}>    
                     <motion.div className="box" whileTap={{scale: 1.2}} whileHover={{ scale: 1.05 }}
                         transition={{ type: "spring", stiffness: 400, damping: 10 }} >
-                        <Button w={'full'}  onClick={sumar} padding={'10px 25px'} borderRadius={'10px'} bg={'white'} outlineOffset={'2'} outlineColor={'black'} color={'green'} _hover={{bg:'pink', color:'black'}}><FaPlusSquare/></Button>
+                        <Button w={'full'}  onClick={sumar} padding={'10px 25px'} borderRadius={'10px'} bg={'white'} outlineOffset={'2'} 
+                        outlineColor={'black'} color={'green'} _hover={{bg:'pink', color:'black'}}><FaPlusSquare/></Button>
                         </motion.div></GridItem>
                 </Grid>  
             </Container>

@@ -6,7 +6,7 @@ import { ContadorResponsive } from '../ContadorResponsive/ContadorResponsive';
 const Main=()=>{
 
     return(				
-        <Container bgImage="url('./fondoRosa.png')" minH="78vh" maxW="100vw" display={'flex'} flexDirection={'column'} alignItems={'center'} 
+        <Container  bgImage="url('public/inter.jpg')" bgRepeat={'no-repeat'} bgPosition={'center'} bgOpacity={'0.5'} minH="78vh" maxW="100vw" display={'flex'} flexDirection={'column'} alignItems={'center'} 
         justifyContent={'center'}  > 
 
             <ContadorResponsive/>
@@ -15,5 +15,5 @@ const Main=()=>{
     );   
 
 }
-
+ 
 export {Main};
